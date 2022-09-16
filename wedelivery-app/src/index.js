@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { getAnalytics } from 'firebase/analytics';
+import { getRemoteConfig } from 'firebase/remote-config';
 import { initializeApp } from 'firebase/app';
 
 import App from './App';
